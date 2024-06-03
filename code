@@ -1,0 +1,9 @@
+class Plant:
+    def __init__(self, name):
+        self.name = name
+
+    def grow(self):
+        print(f"The {self.name} is growing...")
+
+plant = Plant("Rose")
+plant.grow()
